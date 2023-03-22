@@ -63,7 +63,7 @@ def play_game():
     for _ in range(2):
         user_cards.append(deal_card())
         computer_cards.append(deal_card())
-        
+
 
 while not is_game_over:
 
@@ -76,6 +76,7 @@ while not is_game_over:
             is_game_over = True
         else:
             user_should_deal = input("Type 'y' to get another card, type 'n' to pass: ")
+            
             if user_should_deal == "y":
                user_cards.append(deal_card())
             else:
