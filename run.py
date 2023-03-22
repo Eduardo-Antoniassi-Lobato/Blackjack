@@ -1,4 +1,5 @@
 import random
+import os
 
 logo = """
 
@@ -13,7 +14,7 @@ logo = """
                 
 """
 
-print(logo)
+
 
 
 def deal_card():
@@ -55,6 +56,7 @@ def compare(user_score, computer_score):
 
 
 def play_game():
+    print(logo)
 
     user_cards = []
     computer_cards = []
@@ -91,4 +93,6 @@ def play_game():
 
 
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': \n") == "y":
+    os.system('cls||clear')
     play_game()
+    
