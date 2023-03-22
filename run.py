@@ -35,6 +35,10 @@ def calculate_score(cards):
 
 
 def compare(user_score, computer_score):
-        if user_score > 21 and computer_score > 21:
+    if user_score > 21 and computer_score > 21:
         return "You lose. You went over. 😤"
+
+    if user_score == computer_score:
+        return "Draw "
+
 
