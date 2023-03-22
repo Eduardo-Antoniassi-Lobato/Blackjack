@@ -2,7 +2,7 @@
 
 ![intro picture](assets/readme_images/intro.png)
 
-A terminal version of the classic card game Blackjack in python language.
+A simple terminal version of the classic card game Blackjack in python language.
 
 According to the website AskPython the basic rules of the Blackjack are:
 

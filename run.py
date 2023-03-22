@@ -1,6 +1,4 @@
 import random
-import os
-
 
 logo = """
 .------.            _     _            _    _            _    
@@ -12,6 +10,7 @@ logo = """
       |  \/ K|                            _/ |                
       `------'                           |__/           
 """
+print(logo)
 
 
 def deal_card():
@@ -54,7 +53,7 @@ def compare(user_score, computer_score):
 
 def play_game():
 
-    print(logo)
+
 
     user_cards = []
     computer_cards = []
@@ -74,7 +73,7 @@ def play_game():
         if user_score == 0 or computer_score == 0 or user_score > 21:
             is_game_over = True
         else:
-            user_should_deal = input("Type 'y' to get another card, type 'n' to pass: ")
+            user_should_deal = input("Type 'y' to get another card, type 'n' to pass: \n")
 
             if user_should_deal == "y":
                 user_cards.append(deal_card())
@@ -90,6 +89,5 @@ def play_game():
     print(compare(user_score, computer_score))
 
 
-while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
-    os.system('cls')
-    play_game() 
+while input("Do you want to play a game of Blackjack? Type 'y' or 'n': \n") == "y":
+    play_game()
