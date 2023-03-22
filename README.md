@@ -4,7 +4,7 @@
 
 A simple terminal version of the classic card game Blackjack in python language.
 
-According to the website AskPython the basic rules of the Blackjack are:
+According to the website AskPython the basic rules of Blackjack are:
 
 - A card is dealt to the player facing upwards (visible to everyone).
 - The dealer deals a card to himself visible to everyone.
@@ -17,4 +17,6 @@ According to the website AskPython the basic rules of the Blackjack are:
 - As soon as the sum of dealer’s cards is either 17 or more, the dealer is obliged to stand.
 - According to the final sum of the cards, the winner is decided.
 
-The live link for the site can be found here - https://etch-a-sketch.herokuapp.com/
+The live link for the site can be found here - https://blackjack-terminal.herokuapp.com/
+
+
