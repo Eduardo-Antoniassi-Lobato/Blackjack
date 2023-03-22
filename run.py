@@ -54,4 +54,6 @@ def compare(user_score, computer_score):
         return "You lose. "
 
 
+def play_game():
+    
 
