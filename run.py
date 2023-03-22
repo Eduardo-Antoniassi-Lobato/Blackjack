@@ -11,6 +11,8 @@ logo = """
       `------'                           |__/           
 """
 
+print(logo)
+
 
 def deal_card():
     """Returns a random card from the deck."""
@@ -51,7 +53,6 @@ def compare(user_score, computer_score):
 
 
 def play_game():
-    print(logo)
 
     user_cards = []
     computer_cards = []
