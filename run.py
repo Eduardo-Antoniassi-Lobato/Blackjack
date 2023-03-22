@@ -10,7 +10,6 @@ logo = """
       |  \/ K|                            _/ |                
       `------'                           |__/           
 """
-print(logo)
 
 
 def deal_card():
@@ -52,8 +51,7 @@ def compare(user_score, computer_score):
 
 
 def play_game():
-
-
+    print(logo)
 
     user_cards = []
     computer_cards = []
