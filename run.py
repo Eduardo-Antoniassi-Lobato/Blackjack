@@ -64,3 +64,6 @@ def play_game():
         user_cards.append(deal_card())
         computer_cards.append(deal_card())
 
+while not is_game_over:
+
+    
