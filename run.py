@@ -46,6 +46,8 @@ def compare(user_score, computer_score):
         return "You Win with a Blackjack."
     elif user_score > 21:
         return "You went over. You lose. "
+    elif computer_score > 21:
+        return "Opponent went over. You win 😁"
 
 
 
