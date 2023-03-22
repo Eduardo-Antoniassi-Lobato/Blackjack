@@ -76,9 +76,15 @@ while not is_game_over:
             is_game_over = True
         else:
             user_should_deal = input("Type 'y' to get another card, type 'n' to pass: ")
-            
+
             if user_should_deal == "y":
                user_cards.append(deal_card())
             else:
                is_game_over = True
+
+
+while computer_score != 0 and computer_score < 17:
+    computer_cards.append(deal_card())
+    computer_score = calculate_score(computer_cards)
+
 
