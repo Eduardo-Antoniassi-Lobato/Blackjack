@@ -1,20 +1,6 @@
 import random
 import os
-
-logo = """
-
-.------.            _     _            _    _            _    
-|A_  _ |.          | |   | |          | |  (_)          | |   
-|( \/ ).-----.     | |__ | | __ _  ___| | ___  __ _  ___| | __
-| \  /|K /\  |     | '_ \| |/ _` |/ __| |/ / |/ _` |/ __| |/ /
-|  \/ | /  \ |     | |_) | | (_| | (__|   <| | (_| | (__|   < 
-`-----| \  / |     |_.__/|_|\__,_|\___|_|\_\ |\__,_|\___|_|\_\\
-      |  \/ K|                            _/ |                
-      `------'                           |__/ 
-                
-"""
-
-
+from art import logo
 
 
 def deal_card():
@@ -94,5 +80,4 @@ def play_game():
 
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': \n") == "y":
     os.system('cls||clear')
-    play_game()
-    
+    play_game()    
